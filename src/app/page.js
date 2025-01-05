@@ -1,6 +1,5 @@
 "use client";
 
-import { nodes } from "@/lib/const";
 import {
   GlassesIcon,
   MagicWand01Icon,
@@ -291,7 +290,7 @@ export default function Home() {
       icon: <Wallet2Icon className="w-16 h-16 text-green-500" />,
     },
   };
-  
+
   const handleChoice = (next) => {
     if (nodes[next]) {
       setPath([...path, currentNode]);
